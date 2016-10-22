@@ -34,20 +34,20 @@ public:
 		}
 	}
 };
-int main(){
-	const int cmb = 4;
-	const int lmb = 3;
-	Composite containers[cmb];
-	for (int i = 0; i < cmb; i++){
-		for (int j = 0; j < lmb; j++)	{
-			containers[i].add(new Leaf(i * lmb + j));
-		}
-	}
-	for (int i = 1; i < cmb; i++){
-		containers[0].add(&(containers[i]));
-	}
-		for (int i = 0; i < cmb; i++){
-			containers[i].traverse();
-			cout << '\n';
-		}
-}
+//int main(){
+//	const int cmb = 4;
+//	const int lmb = 3;
+//	Composite containers[cmb];
+//	for (int i = 0; i < cmb; i++){
+//		for (int j = 0; j < lmb; j++)	{
+//			containers[i].add(new Leaf(i * lmb + j));
+//		}
+//	}
+//	for (int i = 1; i < cmb; i++){
+//		containers[0].add(&(containers[i]));
+//	}
+//		for (int i = 0; i < cmb; i++){
+//			containers[i].traverse();
+//			cout << '\n';
+//		}
+//}

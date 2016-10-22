@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="adapter.cpp" />
+    <ClCompile Include="adapter1.cpp" />
     <ClCompile Include="builder.cpp" />
     <ClCompile Include="composite.cpp" />
   </ItemGroup>
