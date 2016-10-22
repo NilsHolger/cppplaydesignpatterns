@@ -83,6 +83,7 @@
   <ItemGroup>
     <ClCompile Include="adapter.cpp" />
     <ClCompile Include="builder.cpp" />
+    <ClCompile Include="composite.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -49,12 +49,11 @@ struct HtmlBuilder
 };
 
 
-int main() {
-	HtmlBuilder builder{ "ul" };
-	builder.add_child("li", "get").add_child("li", "stuff").add_child("li", "done");
-	cout << builder.str() << '\n';
-	HtmlElement e = HtmlElement::build("ul")->add_child("li", "you").add_child("li", "sexy")
-		.add_child("li", "string");
-	cout << e.str() << '\n';
-
-}
+//int main() {
+//	HtmlBuilder builder{ "ul" };
+//	builder.add_child("li", "get").add_child("li", "stuff").add_child("li", "done");
+//	cout << builder.str() << '\n';
+//	HtmlElement e = HtmlElement::build("ul")->add_child("li", "you").add_child("li", "sexy")
+//		.add_child("li", "string");
+//	cout << e.str() << '\n';
+//}
