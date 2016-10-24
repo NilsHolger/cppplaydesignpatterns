@@ -13,6 +13,7 @@ composite -> identify scalar/primitive classes and vector container classes. all
 all interchangeable. all concrete classes have is a relationship to interface. all container classes couple themselves to interface.
 recursive composition, composite has a set of children up the is a hierarchy. container classes use polymorphism as they delegate to
 their children
+decorator -> extend functionality, decorate or wrap, statically or dynamically without affecting existing behavior
 
 
 
