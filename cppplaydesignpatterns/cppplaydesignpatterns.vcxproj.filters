@@ -32,5 +32,14 @@
     <ClCompile Include="adapter1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="composite1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="observer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decorator1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -45,7 +45,7 @@ public:
 	}
 };
 
-int main() {
-	Rectangle *r = new RectangleAdapter(40, 100, 20, 10);
-	r->draw();
-}
+//int main() {
+//	Rectangle *r = new RectangleAdapter(40, 100, 20, 10);
+//	r->draw();
+//}
