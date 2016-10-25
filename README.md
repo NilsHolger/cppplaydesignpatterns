@@ -15,6 +15,7 @@ recursive composition, composite has a set of children up the is a hierarchy. co
 their children
 decorator -> extend functionality, decorate or wrap, statically or dynamically without affecting existing behavior
 observer -> need to be informed when certain things happen, object's property changes, object does something, some external event happens, listen to events and be notified when they occur. an observer is an object that wishes to be informed when events happen in the system, typically by providing a callback function to call when events occur. the entity generating the events is sometimes called an observable
+state -> the object's behavior is determined by its state, an object transitions from one state to another(something needs to trigger the transition). a formalized contract which manages states and transitions is called a state machine
 
 
 
