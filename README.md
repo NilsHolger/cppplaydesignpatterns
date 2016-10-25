@@ -24,3 +24,4 @@ state -> the object's behavior is determined by its state, an object transitions
 
 
 working software is the goal. as fast and good as possible. write simple, efficient, maintainable code. iterative software development. 100% quality is an iterative process, continuous refactoring of the code base ...
+innovation is 1% inspiration and 99% perspiration(syntactic sugar sweet sweat), innovators, risk lovers, take calculated risks, large knowledge base -> connect many algorithms, formalize new ones, the base is a large knowledge base ... trial and error process
