@@ -88,6 +88,7 @@
     <ClCompile Include="composite1.cpp" />
     <ClCompile Include="decorator1.cpp" />
     <ClCompile Include="observer.cpp" />
+    <ClCompile Include="observerboost.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

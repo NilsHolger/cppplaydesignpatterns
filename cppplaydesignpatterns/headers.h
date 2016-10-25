@@ -16,4 +16,5 @@
 #include <cstdio>	 
 #include <C:\Users\Nils\Downloads\boost_1_51_0\boost\algorithm\string.hpp>
 #include <C:\Users\Nils\Downloads\boost_1_51_0\boost\any.hpp>
+#include <C:\Users\Nils\Downloads\boost_1_51_0\boost\signals2.hpp>
 #include <sstream>

@@ -90,15 +90,15 @@ struct ConsoleListener : TechnologyListener
 	}
 };
 
-auto main() -> int
-{
-	Technology v8{ 98 };
-	ConsoleListener	cl;
-	//WickedListener cl;
-	v8.Subscribe(&cl);
-	v8.Subscribe(&cl);
-	v8.SetPower(99);
-	v8.SetPower(100);
-	v8.Unsubscribe(&cl);
-	v8.SetPower(101);
-}
+//auto main() -> int
+//{
+//	Technology v8{ 98 };
+//	ConsoleListener	cl;
+//	//WickedListener cl;
+//	v8.Subscribe(&cl);
+//	v8.Subscribe(&cl);
+//	v8.SetPower(99);
+//	v8.SetPower(100);
+//	v8.Unsubscribe(&cl);
+//	v8.SetPower(101);
+//}
