@@ -14,6 +14,7 @@ all interchangeable. all concrete classes have is a relationship to interface. a
 recursive composition, composite has a set of children up the is a hierarchy. container classes use polymorphism as they delegate to
 their children
 decorator -> extend functionality, decorate or wrap, statically or dynamically without affecting existing behavior
+observer -> need to be informed when certain things happen, object's property changes, object does something, some external event happens, listen to events and be notified when they occur
 
 
 
