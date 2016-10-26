@@ -13,8 +13,11 @@
 #include <memory>
 #include <csignal>
 #include <tuple>
-#include <cstdio>	 
+#include <cstdio>
+#include <sstream>
 #include <C:\Users\Nils\Downloads\boost_1_51_0\boost\algorithm\string.hpp>
 #include <C:\Users\Nils\Downloads\boost_1_51_0\boost\any.hpp>
 #include <C:\Users\Nils\Downloads\boost_1_51_0\boost\signals2.hpp>
-#include <sstream>
+#include <C:\Users\Nils\Downloads\boost_1_51_0\boost\msm\back\state_machine.hpp>
+#include <C:\Users\Nils\Downloads\boost_1_51_0\boost\msm\front\state_machine_def.hpp>
+#include <C:\Users\Nils\Downloads\boost_1_51_0\boost\msm\front\functor_row.hpp>
