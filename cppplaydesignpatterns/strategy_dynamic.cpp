@@ -87,17 +87,17 @@ private:
 
 
 
-auto main() -> int
-{
-	TextProcessor tp;
-	tp.set_output_format(OutputFormat::Markdown);
-	tp.append_list({ "a", "b", "c" });
-	cout << tp.str() << endl;
-	tp.clear();
-	tp.set_output_format(OutputFormat::HTML);
-	tp.append_list({ "a", "b", "c" });
-	cout << tp.str() << endl;
-}
+//auto main() -> int
+//{
+//	TextProcessor tp;
+//	tp.set_output_format(OutputFormat::Markdown);
+//	tp.append_list({ "a", "b", "c" });
+//	cout << tp.str() << endl;
+//	tp.clear();
+//	tp.set_output_format(OutputFormat::HTML);
+//	tp.append_list({ "a", "b", "c" });
+//	cout << tp.str() << endl;
+//}
 
 
 

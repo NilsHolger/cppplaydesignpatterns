@@ -1,4 +1,4 @@
-﻿Build started 26.10.2016 22:50:21.
+﻿Build started 26.10.2016 23:07:01.
      1>Project "C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\cppplaydesignpatterns\cppplaydesignpatterns.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt strategy_dynamic.cpp
@@ -17,9 +17,10 @@
          Debug\state1.obj
          Debug\state2.obj
          Debug\strategy_dynamic.obj
+         Debug\template.obj
          cppplaydesignpatterns.vcxproj -> C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.exe
      1>Done Building Project "C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\cppplaydesignpatterns\cppplaydesignpatterns.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:08.07
+Time Elapsed 00:00:08.60
