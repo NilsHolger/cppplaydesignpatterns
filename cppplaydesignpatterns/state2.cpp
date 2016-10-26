@@ -27,17 +27,17 @@ struct PhoneStateMachine : state_machine_def<PhoneStateMachine>
 	typedef OffHook initial_state;
 };
 
-auto main() -> int
-{
-	msm::back::state_machine<PhoneStateMachine> phone;
-	auto info = [&]()
-	{
-		auto i = phone.current_state()[0];
-		cout << "phone is currently " << state_names[i] << '\n';
-	
-	};
-	info();
-	phone.process_event(CallDialed{});
-	info();
-}
+//auto main() -> int
+//{
+//	msm::back::state_machine<PhoneStateMachine> phone;
+//	auto info = [&]()
+//	{
+//		auto i = phone.current_state()[0];
+//		cout << "phone is currently " << state_names[i] << '\n';
+//	
+//	};
+//	info();
+//	phone.process_event(CallDialed{});
+//	info();
+//}
 

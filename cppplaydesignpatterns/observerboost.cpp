@@ -30,14 +30,14 @@ private:
 	int shoesize;
 };
 
-auto main() -> int
-{
-	SexyLady S{ 37 };
-	S.PropertyChanged.connect([](SexyLady&, const string& property_name)
-	{
-		cout << property_name << " has changed " << '\n';
-	});
-	S.SetShoeSize(38);
-}
+//auto main() -> int
+//{
+//	SexyLady S{ 37 };
+//	S.PropertyChanged.connect([](SexyLady&, const string& property_name)
+//	{
+//		cout << property_name << " has changed " << '\n';
+//	});
+//	S.SetShoeSize(38);
+//}
 
 
