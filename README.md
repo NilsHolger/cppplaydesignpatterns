@@ -34,9 +34,11 @@ While there is value in items on the right we value items on the left more.
 2. Working software
 3. Customer Collaboration
 4. Responding to change
+
 --------------------------------------------------------------------
 
 working software is the goal. as fast and good as possible. write simple, efficient, maintainable code. iterative software development. 100% quality is an iterative process, continuous refactoring of the code base ...
 innovation is 1% inspiration and 99% perspiration(syntactic sugar sweet sweat), innovators, risk lovers, take calculated risks, large knowledge base -> connect many algorithms, formalize new ones, the base is a large knowledge base ... trial and error process
 
+if god were among us, we would hold him for completely irrational, because he would never do the same thing twice ...
 
