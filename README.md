@@ -21,7 +21,7 @@ state -> the object's behavior is determined by its state, an object transitions
 strategy -> enable the exact behavior of a system to be selected at either run-time (dynamic) or compile-time (static), also known as policy. encapsulate an algorithm in class hierarchy, have clients of that algorithm hold a pointer to base class of hierarchy, delegate all requests for that algorithm to the anonymous contained object
 template method -> define skeleton of algorithm, concrete implementations in subclasses
 chain of responsibility -> a chain of components who all get a chance to process a command or query, optionally having a default processing implementation and an ability to terminate the processing chain. put a next pointer in base class, chain method in base class always delegates to next object, if derived class cannot handle, delegate to base class
-command -> an object represents an instruction or sequence of instructions to perform a particular action. contains all information required to execute the action. class encapuslates number of following: receiver object, method to invoke, arguments to pass. instantiate an obejct for each callback, pass each object to its future sender, when sender ready to callback to receiver, execute is invoked
+command -> an object represents an instruction or sequence of instructions to perform a particular action. contains all information required to execute the action. class encapuslates number of following: receiver object, method to invoke, arguments to pass. instantiate an object for each callback, pass each object to its future sender, when sender ready to callback to receiver, execute is invoked
 
 --------------------------------------------------------------------
 Manifesto for Agile Software Development
@@ -35,6 +35,21 @@ While there is value in items on the right we value items on the left more.
 2. Working software
 3. Customer Collaboration
 4. Responding to change
+
+--------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Manifesto for Software Craftsmanship
+As aspiring software craftsman we are raising the bar of professional software development by practicing it and helping others learn the craft. Through this work we have come to value:
+Not only working software, but also well crafted software [made with love]
+Not only responding to change, but also steadily adding value
+Not only individuals and interactions, but also a community of professionals
+Not only customer collaboration, but also productive partnerships
+That is in pursuit of items on the left, we have found the items on the right to be indispensable.
+1. Well crafted software
+2. Steadily adding value
+3. Community of professionals
+4. Productive partnerships
 
 --------------------------------------------------------------------
 
