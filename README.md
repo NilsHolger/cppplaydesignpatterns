@@ -1,6 +1,8 @@
 # cppplaydesignpatterns
 simple modern c++ design patterns
 
+flag->ingenuity: quality of being clever, original and inventive. apply new ideas to solve problems and meet challenges.
+
 for these use cases
 adapter -> wrap an existing library, provide specific functionality to meet the needs of the consumers of the api
 adapternew -> legacy component is not compatible with system that wants to use it. an abstract base class is created that specifies
@@ -18,12 +20,23 @@ observer -> need to be informed when certain things happen, object's property ch
 state -> the object's behavior is determined by its state, an object transitions from one state to another(something needs to trigger the transition). a formalized contract which manages states and transitions is called a state machine
 strategy -> enable the exact behavior of a system to be selected at either run-time (dynamic) or compile-time (static), also known as policy. encapsulate an algorithm in class hierarchy, have clients of that algorithm hold a pointer to base class of hierarchy, delegate all requests for that algorithm to the anonymous contained object
 template method -> define skeleton of algorithm, concrete implementations in subclasses
+chain of responsibility -> a chain of components who all get a chance to process a command or query, optionally having a default processing implementation and an ability to terminate the processing chain
 
-
-
-
-
-
+--------------------------------------------------------------------
+Manifesto for Agile Software Development
+We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
+Individuals and interactions over processes and tools.
+Working software over comprehensive documentation.
+Customer collaboration over contract negotiation.
+Responding to change over following a plan.
+While there is value in items on the right we value items on the left more.
+1. Individuals and interactions
+2. Working software
+3. Customer Collaboration
+4. Responding to change
+--------------------------------------------------------------------
 
 working software is the goal. as fast and good as possible. write simple, efficient, maintainable code. iterative software development. 100% quality is an iterative process, continuous refactoring of the code base ...
 innovation is 1% inspiration and 99% perspiration(syntactic sugar sweet sweat), innovators, risk lovers, take calculated risks, large knowledge base -> connect many algorithms, formalize new ones, the base is a large knowledge base ... trial and error process
+
+
