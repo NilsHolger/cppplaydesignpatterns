@@ -90,14 +90,14 @@ public:
 	}
 };
 
-auto main() -> int
-{
-	srand(time(0));
-	Handler1 root;Handler2 two;Handler3 three;Handler4 four;
-	root.add(&two);root.add(&three);root.add(&four);four.setNext(&root);
-	for (int i = 1; i < 10; i++)
-	{
-		root.handle(i);
-		cout << '\n';
-	}
-}
+//auto main() -> int
+//{
+//	srand(time(0));
+//	Handler1 root;Handler2 two;Handler3 three;Handler4 four;
+//	root.add(&two);root.add(&three);root.add(&four);four.setNext(&root);
+//	for (int i = 1; i < 10; i++)
+//	{
+//		root.handle(i);
+//		cout << '\n';
+//	}
+//}
