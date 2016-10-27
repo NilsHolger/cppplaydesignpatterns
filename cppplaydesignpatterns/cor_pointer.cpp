@@ -81,18 +81,18 @@ public:
 	}
 };
 
-auto main() -> int
-{
-	Animal lion{ "Lion", 1, 1 };
-	AnimalModifier root{ lion };
-	DoubleAttackModifier r1{ lion };
-	DoubleAttackModifier r1_2{ lion };
-	IncreaseDefenseModifier r2{ lion };
-	//NoBonusModifier nob{ lion };
-	//root.add(&nob);
-	root.add(&r1);
-	root.add(&r1_2);
-	root.add(&r2);
-	root.handle();
-	cout << lion << '\n';
-}
+//auto main() -> int
+//{
+//	Animal lion{ "Lion", 1, 1 };
+//	AnimalModifier root{ lion };
+//	DoubleAttackModifier r1{ lion };
+//	DoubleAttackModifier r1_2{ lion };
+//	IncreaseDefenseModifier r2{ lion };
+//	//NoBonusModifier nob{ lion };
+//	//root.add(&nob);
+//	root.add(&r1);
+//	root.add(&r1_2);
+//	root.add(&r2);
+//	root.handle();
+//	cout << lion << '\n';
+//}

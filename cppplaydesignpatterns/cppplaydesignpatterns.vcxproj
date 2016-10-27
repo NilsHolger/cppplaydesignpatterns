@@ -84,6 +84,7 @@
     <ClCompile Include="adapter.cpp" />
     <ClCompile Include="adapter1.cpp" />
     <ClCompile Include="builder.cpp" />
+    <ClCompile Include="chainofresponsibility.cpp" />
     <ClCompile Include="cor_broker.cpp" />
     <ClCompile Include="cor_pointer.cpp" />
     <ClCompile Include="composite.cpp" />
