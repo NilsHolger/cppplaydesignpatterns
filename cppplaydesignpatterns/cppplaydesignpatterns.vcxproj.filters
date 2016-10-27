@@ -59,5 +59,11 @@
     <ClCompile Include="template.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cor_broker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cor_pointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

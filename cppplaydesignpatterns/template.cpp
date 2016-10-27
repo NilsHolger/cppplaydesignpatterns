@@ -44,14 +44,14 @@ class Two : public Base
 };
 
 
-auto main() -> int
-{
-	Base *array[] =
-	{
-		&One(), &Two()
-	};
-	for (int i = 0; i < 2; i++){
-		array[i]->execute();
-		cout << '\n';
-	}
-}
+//auto main() -> int
+//{
+//	Base *array[] =
+//	{
+//		&One(), &Two()
+//	};
+//	for (int i = 0; i < 2; i++){
+//		array[i]->execute();
+//		cout << '\n';
+//	}
+//}
