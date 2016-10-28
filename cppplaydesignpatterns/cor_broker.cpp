@@ -78,11 +78,11 @@ public:
 	}
 };
 
-auto main() -> int
-{
-	Game game;
-	Animal lion{ game, 10, 10, "Open Source" };
-	cout << lion << '\n';
-	DoubleAttackModifier d{ game, lion };
-	cout << lion << '\n';
-}
+//auto main() -> int
+//{
+//	Game game;
+//	Animal lion{ game, 10, 10, "Open Source" };
+//	cout << lion << '\n';
+//	DoubleAttackModifier d{ game, lion };
+//	cout << lion << '\n';
+//}
