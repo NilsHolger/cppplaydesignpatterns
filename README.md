@@ -13,25 +13,26 @@ innovation: don't imitate, innovate, challenge conventional thinking, why? why n
 killer technologies: javascript, c++, nodejs, v8, libuv, html, css ...
 
 for these use cases
-adapter -> wrap an existing library, provide specific functionality to meet the needs of the consumers of the api
+adapter -> wrap an existing library, provide specific functionality to meet the needs of the consumers of the api [adapter.cpp]
 adapternew -> legacy component is not compatible with system that wants to use it. an abstract base class is created that specifies
 the desired interface. an adapter class is defined that publicly inherits interface of abstract class and privately inherits
 the implementation of the legacy component. the adapter class maps or impedance matches the new interface to the old implementation. In
-the constructor of the adapter the transformation takes place
+the constructor of the adapter the transformation takes place [adapter1.cpp]
 builder -> object oriented, separate construction of complex object from its representation so that the same construction
-process can create different representations
+process can create different representations [builder.cpp]
 composite -> identify scalar/primitive classes and vector container classes. all concrete classes implement an interface, they are
 all interchangeable. all concrete classes have is a relationship to interface. all container classes couple themselves to interface.
 recursive composition, composite has a set of children up the is a hierarchy. container classes use polymorphism as they delegate to
-their children
-decorator -> extend functionality, decorate or wrap, statically or dynamically without affecting existing behavior
-observer -> need to be informed when certain things happen, object's property changes, object does something, some external event happens, listen to events and be notified when they occur. an observer is an object that wishes to be informed when events happen in the system, typically by providing a callback function to call when events occur. the entity generating the events is sometimes called an observable
-state -> the object's behavior is determined by its state, an object transitions from one state to another(something needs to trigger the transition). a formalized contract which manages states and transitions is called a state machine
-strategy -> enable the exact behavior of a system to be selected at either run-time (dynamic) or compile-time (static), also known as policy. encapsulate an algorithm in class hierarchy, have clients of that algorithm hold a pointer to base class of hierarchy, delegate all requests for that algorithm to the anonymous contained object
-template method -> define skeleton of algorithm, concrete implementations in subclasses
-chain of responsibility -> a chain of components who all get a chance to process a command or query, optionally having a default processing implementation and an ability to terminate the processing chain. put a next pointer in base class, chain method in base class always delegates to next object, if derived class cannot handle, delegate to base class
-command -> an object represents an instruction or sequence of instructions to perform a particular action. contains all information required to execute the action. class encapuslates number of following: receiver object, method to invoke, arguments to pass. instantiate an object for each callback, pass each object to its future sender, when sender ready to callback to receiver, execute is invoked
-interpreter -> given a language define a representation for its grammar along with an interpreter that uses the the representation to interpret sentences in the language, map a domain to a language, language to a grammar, and the grammar to a hierarchical object oriented design. an abstract base class specifies the method interpret, each concrete subclass implements interpret by accepting as an argument the current state state of the language stream and adding its contribution to the problem solving process 
+their children [composite.cpp]
+decorator -> extend functionality, decorate or wrap, statically or dynamically without affecting existing behavior [decorator.cpp, decorator1.cpp]
+observer -> need to be informed when certain things happen, object's property changes, object does something, some external event happens, listen to events and be notified when they occur. an observer is an object that wishes to be informed when events happen in the system, typically by providing a callback function to call when events occur. the entity generating the events is sometimes called an observable [observer.cpp, observerboost.cpp]
+state -> the object's behavior is determined by its state, an object transitions from one state to another(something needs to trigger the transition). a formalized contract which manages states and transitions is called a state machine [state.cpp state1.cpp]
+strategy -> enable the exact behavior of a system to be selected at either run-time (dynamic) or compile-time (static), also known as policy. encapsulate an algorithm in class hierarchy, have clients of that algorithm hold a pointer to base class of hierarchy, delegate all requests for that algorithm to the anonymous contained object [strategy.cpp]
+template method -> define skeleton of algorithm, concrete implementations in subclasses [template.cpp]
+chain of responsibility -> a chain of components who all get a chance to process a command or query, optionally having a default processing implementation and an ability to terminate the processing chain. put a next pointer in base class, chain method in base class always delegates to next object, if derived class cannot handle, delegate to base class [cor_pointer.cpp, cor_broker.cpp]
+command -> an object represents an instruction or sequence of instructions to perform a particular action. contains all information required to execute the action. class encapuslates number of following: receiver object, method to invoke, arguments to pass. instantiate an object for each callback, pass each object to its future sender, when sender ready to callback to receiver, execute is invoked [command1.cpp]
+interpreter -> given a language define a representation for its grammar along with an interpreter that uses the the representation to interpret sentences in the language, map a domain to a language, language to a grammar, and the grammar to a hierarchical object oriented design. an abstract base class specifies the method interpret, each concrete subclass implements interpret by accepting as an argument the current state state of the language stream and adding its contribution to the problem solving process [interpreter.cpp]
+iterator -> abstract traversal of wildly different data structures so that algorithms can be defined that are capable of interfacing with each other transparently. access elements of aggregate object sequentially without exposing underlying representation, decouple collection classes and algorithms, promote to full object status traversal of collection, polymorphic traversal
 
 --------------------------------------------------------------------
 Manifesto for Agile Software Development
