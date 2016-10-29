@@ -74,3 +74,7 @@ if god were among us, we would hold him for completely irrational, because he wo
 
 A special shoutout to my project manager, you're awesome, and colleagues, you guys are all awesome, super bright ueber geeks. you bring out the best in me. team work. high performance teams ... push it to the limit. we can and we will. it's all about progress, make our projects progress, make our knowledge base progress, make technology progress, help make the world a better place for all, for the future generations, for they shall have all the comfort of automation and then build on it. imagine the world in 100 years time. what will it be like? if we are able to figure that out now, jackpot ... 100 years ahead ... progress of the human mind .. evolution ... revolution ... many disruptive technologies ahead ... make new ... let's have a lot of fun in the process ... just for fun ... 
 let's build the future with love ... the future starts now ... in a perfect world ... what would a perfect world be like ?
+
+what is the sex of the angels? we pondered on this topic in university. i'd say stateless. they must be good and pure, like a new born baby. intellectual masturbation time. some people get paid to do this and professors love talking. talk is cheap, show me the algorithms, facts and nothing but facts. numbers and more numbers and i will believe.
+results count. working software. get it done as good and fast as possible that is our reality. the meaning of life is progress. 
+with great powers come great responsibilities ... all humans are equal ...
