@@ -1,7 +1,16 @@
 # cppplaydesignpatterns
 simple modern c++ design patterns
 
-flag->ingenuity: quality of being clever, original and inventive. apply new ideas to solve problems and meet challenges.
+our flag de->ingenuity: quality of being clever, original and inventive. apply new ideas to solve problems and meet challenges.
+innovation: don't imitate, innovate, challenge conventional thinking, why? why not? think differently
+1. clever
+2. original
+3. inventive
+4. new ideas
+5. solve problems
+6. meet challenges
+7. focus on the goal, like a fighter pilot on a mission, got to know when to push it and when to back off, get the job done.
+killer technologies: javascript, c++, nodejs, v8, libuv, html, css ...
 
 for these use cases
 adapter -> wrap an existing library, provide specific functionality to meet the needs of the consumers of the api
@@ -22,6 +31,7 @@ strategy -> enable the exact behavior of a system to be selected at either run-t
 template method -> define skeleton of algorithm, concrete implementations in subclasses
 chain of responsibility -> a chain of components who all get a chance to process a command or query, optionally having a default processing implementation and an ability to terminate the processing chain. put a next pointer in base class, chain method in base class always delegates to next object, if derived class cannot handle, delegate to base class
 command -> an object represents an instruction or sequence of instructions to perform a particular action. contains all information required to execute the action. class encapuslates number of following: receiver object, method to invoke, arguments to pass. instantiate an object for each callback, pass each object to its future sender, when sender ready to callback to receiver, execute is invoked
+interpreter -> given a language define a representation for its grammar along with an interpreter that uses the the representation to interpret sentences in the language, map a domain to a language, language to a grammar, and the grammar to a hierarchical object oriented design. an abstract base class specifies the method interpret, each concrete subclass implements interpret by accepting as an argument the current state state of the language stream and adding its contribution to the problem solving process 
 
 --------------------------------------------------------------------
 Manifesto for Agile Software Development
