@@ -92,6 +92,8 @@
     <ClCompile Include="composite1.cpp" />
     <ClCompile Include="decorator.cpp" />
     <ClCompile Include="decorator1.cpp" />
+    <ClCompile Include="interpreter.cpp" />
+    <ClCompile Include="iterator.cpp" />
     <ClCompile Include="observer.cpp" />
     <ClCompile Include="observerboost.cpp" />
     <ClCompile Include="state1.cpp" />

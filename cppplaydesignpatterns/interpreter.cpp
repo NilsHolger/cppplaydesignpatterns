@@ -188,14 +188,14 @@ int RomanInterpreter::interpret(char* input)
 	return total;
 }
 
-auto main() -> int
-{
-	RomanInterpreter interpreter;
-	char input[20];
-	cout << "Enter Roman Numeral: ";
-	while (cin >> input)
-	{
-		cout << " interpretation is " << interpreter.interpret(input) << '\n';
-		cout << "Enter Roman Numeral: ";
-	}
-}
+//auto main() -> int
+//{
+//	RomanInterpreter interpreter;
+//	char input[20];
+//	cout << "Enter Roman Numeral: ";
+//	while (cin >> input)
+//	{
+//		cout << " interpretation is " << interpreter.interpret(input) << '\n';
+//		cout << "Enter Roman Numeral: ";
+//	}
+//}

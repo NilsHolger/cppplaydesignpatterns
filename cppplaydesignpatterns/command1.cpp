@@ -48,11 +48,11 @@ public:
 	}
 };
 
-auto main() -> int
-{
-	Person carol("Carol", Command());
-	Person mary("Mary", Command(&carol, &Person::listen));
-	Person bettina("Bettina", Command(&mary, &Person::gossip));
-	Person sophie("Sophie", Command(&bettina, &Person::passOn));
-	sophie.talk();
-}
+//auto main() -> int
+//{
+//	Person carol("Carol", Command());
+//	Person mary("Mary", Command(&carol, &Person::listen));
+//	Person bettina("Bettina", Command(&mary, &Person::gossip));
+//	Person sophie("Sophie", Command(&bettina, &Person::passOn));
+//	sophie.talk();
+//}
