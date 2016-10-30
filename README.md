@@ -1,7 +1,7 @@
 # cppplaydesignpatterns
 simple modern c++ design patterns
 
-our flag de->ingenuity: quality of being clever, original and inventive. apply new ideas to solve problems and meet challenges.
+ingenuity: quality of being clever, original and inventive. apply new ideas to solve problems and meet challenges.
 innovation: don't imitate, innovate, challenge conventional thinking, why? why not? think differently
 1. clever
 2. original
@@ -32,7 +32,7 @@ template method -> define skeleton of algorithm, concrete implementations in sub
 chain of responsibility -> a chain of components who all get a chance to process a command or query, optionally having a default processing implementation and an ability to terminate the processing chain. put a next pointer in base class, chain method in base class always delegates to next object, if derived class cannot handle, delegate to base class [cor_pointer.cpp, cor_broker.cpp]
 command -> an object represents an instruction or sequence of instructions to perform a particular action. contains all information required to execute the action. class encapuslates number of following: receiver object, method to invoke, arguments to pass. instantiate an object for each callback, pass each object to its future sender, when sender ready to callback to receiver, execute is invoked [command1.cpp]
 interpreter -> given a language define a representation for its grammar along with an interpreter that uses the the representation to interpret sentences in the language, map a domain to a language, language to a grammar, and the grammar to a hierarchical object oriented design. an abstract base class specifies the method interpret, each concrete subclass implements interpret by accepting as an argument the current state state of the language stream and adding its contribution to the problem solving process [interpreter.cpp]
-iterator -> abstract traversal of wildly different data structures so that algorithms can be defined that are capable of interfacing with each other transparently. access elements of aggregate object sequentially without exposing underlying representation, decouple collection classes and algorithms, promote to full object status traversal of collection, polymorphic traversal
+iterator -> abstract traversal of wildly different data structures so that algorithms can be defined that are capable of interfacing with each other transparently. access elements of aggregate object sequentially without exposing underlying representation, decouple collection classes and algorithms, promote to full object status traversal of collection, polymorphic traversal [iterator.cpp]
 
 --------------------------------------------------------------------
 Manifesto for Agile Software Development
@@ -66,7 +66,7 @@ We follow these principles:
 --------------------------------------------------------------------
 Manifesto for Software Craftsmanship
 As aspiring software craftsman we are raising the bar of professional software development by practicing it and helping others learn the craft. Through this work we have come to value:
-Not only working software, but also well crafted software [made with love]
+Not only working software, but also well crafted software
 Not only responding to change, but also steadily adding value
 Not only individuals and interactions, but also a community of professionals
 Not only customer collaboration, but also productive partnerships
@@ -83,7 +83,7 @@ innovation is 1% inspiration and 99% perspiration(syntactic sugar sweet sweat), 
 
 if god were among us, we would hold him for completely irrational, because he would never do the same thing twice ...
 
-A special shoutout to my project manager, you're awesome, and colleagues, you guys are all awesome, super bright ueber geeks. you bring out the best in me. team work. high performance teams ... push it to the limit. we can and we will. it's all about progress, make our projects progress, make our knowledge base progress, make technology progress, help make the world a better place for all, for the future generations, for they shall have all the comfort of automation and then build on it. imagine the world in 100 years time. what will it be like? if we are able to figure that out now, jackpot ... 100 years ahead ... progress of the human mind .. evolution ... revolution ... many disruptive technologies ahead ... make new ... let's have a lot of fun in the process ... just for fun ... 
+push it to the limit. it's all about progress, make our projects progress, make our knowledge base progress, make technology progress, help make the world a better place for all, for the future generations, for they shall have all the comfort of automation and then build on it. imagine the world in 100 years time. what will it be like? if we are able to figure that out now, jackpot ... 100 years ahead ... progress of the human mind .. evolution ... revolution ... many disruptive technologies ahead ... make new ... let's have a lot of fun in the process ... just for fun ... 
 let's build the future with love ... the future starts now ... in a perfect world ... what would a perfect world be like ?
 
 what is the sex of the angels? we pondered on this topic in university. i'd say stateless. they must be good and pure, like a new born baby. intellectual masturbation time. some people get paid to do this and professors love talking. talk is cheap, show me the algorithms, facts and nothing but facts. numbers and more numbers and i will believe.
