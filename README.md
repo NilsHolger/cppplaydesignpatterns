@@ -10,7 +10,7 @@ innovation: don't imitate, innovate, challenge conventional thinking, why? why n
 5. solve problems
 6. meet challenges
 7. focus on the goal, like a fighter pilot on a mission, got to know when to push it and when to back off, get the job done.
-killer technologies: javascript, c++, nodejs, v8, libuv, html, css ...
+killer technologies: javascript, c++, nodejs, v8, libuv, html, css ... the future is open source. why? because the strongest survive. kill off the rest.
 
 for these use cases
 adapter -> wrap an existing library, provide specific functionality to meet the needs of the consumers of the api [adapter.cpp]
@@ -33,6 +33,7 @@ chain of responsibility -> a chain of components who all get a chance to process
 command -> an object represents an instruction or sequence of instructions to perform a particular action. contains all information required to execute the action. class encapuslates number of following: receiver object, method to invoke, arguments to pass. instantiate an object for each callback, pass each object to its future sender, when sender ready to callback to receiver, execute is invoked [command1.cpp]
 interpreter -> given a language define a representation for its grammar along with an interpreter that uses the the representation to interpret sentences in the language, map a domain to a language, language to a grammar, and the grammar to a hierarchical object oriented design. an abstract base class specifies the method interpret, each concrete subclass implements interpret by accepting as an argument the current state state of the language stream and adding its contribution to the problem solving process [interpreter.cpp]
 iterator -> abstract traversal of wildly different data structures so that algorithms can be defined that are capable of interfacing with each other transparently. access elements of aggregate object sequentially without exposing underlying representation, decouple collection classes and algorithms, promote to full object status traversal of collection, polymorphic traversal [iterator.cpp]
+mediator -> an object encapsulates how a set of objects interact, loose coupling by keeping objects from referring to each other explicitly, vary their interaction independently, design an intermediary to decouple many peers, promote many to many relationships between interacting peers to full object status
 
 --------------------------------------------------------------------
 Manifesto for Agile Software Development
