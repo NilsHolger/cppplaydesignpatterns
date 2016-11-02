@@ -1,53 +1,12 @@
-﻿Build started 01.11.2016 18:30:39.
-     1>Project "C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\cppplaydesignpatterns\cppplaydesignpatterns.vcxproj" on node 2 (Build target(s)).
+﻿Build started 02.11.2016 19:47:37.
+     1>Project "C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\cppplaydesignpatterns\cppplaydesignpatterns.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt adapter.cpp adapter1.cpp builder.cpp chainofresponsibility.cpp command1.cpp cor_broker.cpp cor_pointer.cpp composite.cpp composite1.cpp decorator.cpp decorator1.cpp interpreter.cpp iterator.cpp mediator.cpp observer.cpp observerboost.cpp state1.cpp state2.cpp strategy_dynamic.cpp template.cpp
-         template.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt memento.cpp
+         memento.cpp
          Unknown compiler version - please run the configure tests and report the results
-         strategy_dynamic.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         state2.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         state1.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         observerboost.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         observer.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         mediator.cpp
-         Unknown compiler version - please run the configure tests and report the results
-     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\mediator.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
-         iterator.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         interpreter.cpp
-         Unknown compiler version - please run the configure tests and report the results
-     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\interpreter.cpp(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
-         decorator1.cpp
-         decorator.cpp
-         composite1.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         composite.cpp
-         Unknown compiler version - please run the configure tests and report the results
-     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\composite.cpp(31): warning C4018: '<' : signed/unsigned mismatch
-         cor_pointer.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         cor_broker.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         command1.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         chainofresponsibility.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         builder.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         adapter1.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         adapter.cpp
-         Unknown compiler version - please run the configure tests and report the results
-         Generating Code...
+     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\memento.cpp(55): warning C4018: '<' : signed/unsigned mismatch
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.lib" /MACHINE:X86 Debug\adapter.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.lib" /MACHINE:X86 Debug\adapter.obj
          Debug\adapter1.obj
          Debug\builder.obj
          Debug\chainofresponsibility.obj
@@ -61,15 +20,16 @@
          Debug\interpreter.obj
          Debug\iterator.obj
          Debug\mediator.obj
+         Debug\memento.obj
          Debug\observer.obj
          Debug\observerboost.obj
          Debug\state1.obj
          Debug\state2.obj
          Debug\strategy_dynamic.obj
          Debug\template.obj
-         cppplaydesignpatterns.vcxproj -> C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.exe
-     1>Done Building Project "C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\cppplaydesignpatterns\cppplaydesignpatterns.vcxproj" (Build target(s)).
+         cppplaydesignpatterns.vcxproj -> C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.exe
+     1>Done Building Project "C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\cppplaydesignpatterns\cppplaydesignpatterns.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:02:09.13
+Time Elapsed 00:00:07.80

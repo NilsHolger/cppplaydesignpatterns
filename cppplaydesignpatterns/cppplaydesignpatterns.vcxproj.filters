@@ -80,5 +80,8 @@
     <ClCompile Include="mediator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="memento.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
