@@ -93,6 +93,7 @@
     <ClCompile Include="decorator.cpp" />
     <ClCompile Include="decorator1.cpp" />
     <ClCompile Include="facade.cpp" />
+    <ClCompile Include="flyweight.cpp" />
     <ClCompile Include="interpreter.cpp" />
     <ClCompile Include="iterator.cpp" />
     <ClCompile Include="mediator.cpp" />

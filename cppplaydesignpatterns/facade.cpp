@@ -135,14 +135,14 @@ private:
 	MissDepartment _technician;
 };
 
-auto main()	-> int
-{
-	FacilitiesFacade facade;
-	facade.submitNetworkRequest();
-	while (!facade.checkOnStatus()){
-		;
-	}
-	cout << "job completed after " << facade.getNumberOfCalls() <<
-		" phone calls" << '\n';
-	getchar();
-}
+//auto main()	-> int
+//{
+//	FacilitiesFacade facade;
+//	facade.submitNetworkRequest();
+//	while (!facade.checkOnStatus()){
+//		;
+//	}
+//	cout << "job completed after " << facade.getNumberOfCalls() <<
+//		" phone calls" << '\n';
+//	getchar();
+//}
