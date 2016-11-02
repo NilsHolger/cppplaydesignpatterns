@@ -68,19 +68,19 @@ public:
 };
 
 
-auto main()	-> int
-{
-	BankAccount ba{ 1000 };
-	ba.deposit(500);
-	ba.deposit(250);
-	cout << ba << '\n'; //1750
-	ba.undo();
-	cout << ba << '\n';	 //1500
-	ba.undo();
-	cout << ba << '\n';	 //1000
-	ba.redo();
-	cout << ba << '\n'; //1500
-	ba.redo();
-	cout << ba << '\n'; //1750
-	getchar();
-}
+//auto main()	-> int
+//{
+//	BankAccount ba{ 1000 };
+//	ba.deposit(500);
+//	ba.deposit(250);
+//	cout << ba << '\n'; //1750
+//	ba.undo();
+//	cout << ba << '\n';	 //1500
+//	ba.undo();
+//	cout << ba << '\n';	 //1000
+//	ba.redo();
+//	cout << ba << '\n'; //1500
+//	ba.redo();
+//	cout << ba << '\n'; //1750
+//	getchar();
+//}
