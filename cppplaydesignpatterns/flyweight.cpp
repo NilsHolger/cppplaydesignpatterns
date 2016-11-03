@@ -47,14 +47,14 @@ protected:
 int User::seed = 0;
 bimap<key, string> User::names{};
 
-auto main() -> int
-{
-	User hanna_fox{ "Hanna", "Fox" };
-	User maria_fox{ "Maria", "Fox" };
-	User sophia_fox{ "Sophia", "Fox" };
-
-	cout << "Hanna " << hanna_fox << '\n';
-	cout << "Maria " << maria_fox << '\n';
-	cout << "Sophia " << sophia_fox << '\n';
-	getchar();
-}
+//auto main() -> int
+//{
+//	User hanna_fox{ "Hanna", "Fox" };
+//	User maria_fox{ "Maria", "Fox" };
+//	User sophia_fox{ "Sophia", "Fox" };
+//
+//	cout << "Hanna " << hanna_fox << '\n';
+//	cout << "Maria " << maria_fox << '\n';
+//	cout << "Sophia " << sophia_fox << '\n';
+//	getchar();
+//}
