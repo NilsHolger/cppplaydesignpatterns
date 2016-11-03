@@ -1,6 +1,5 @@
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\vc120.pdb
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\vc120.idb
-c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\command1.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\cor_broker.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\cor_pointer.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\composite.obj
@@ -16,6 +15,7 @@ c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cpppla
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\prototype.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\observer.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\observerboost.obj
+c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\proxy.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\state1.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\state2.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\strategy_dynamic.obj
@@ -24,6 +24,7 @@ c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cpppla
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\adapter1.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\builder.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\chainofresponsibility.obj
+c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\debug\command1.obj
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\debug\cppplaydesignpatterns.ilk
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\debug\cppplaydesignpatterns.exe
 c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\debug\cppplaydesignpatterns.pdb

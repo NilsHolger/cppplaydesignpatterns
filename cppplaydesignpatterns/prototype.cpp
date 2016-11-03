@@ -43,29 +43,29 @@ class CA2 : public MA
 MA* Factory::s_prototypes[] = { 0, new CA0, new CA1, new CA2 };
 MA* Factory::make_ma(int selection){ return s_prototypes[selection]->clone(); }
 
-auto main() -> int
-{
-	vector roles;
-	int selection;
-
-	while (true)
-	{
-		cout << "CA0(1), CA1(2), CA2(3), Launch(0): ";
-		cin >> selection;
-		if (selection == 0)
-		{
-			break;
-		}
-		roles.push_back(Factory::make_ma(selection));
-
-		for (int i = 0; i < roles.size(); i++)
-		{
-				roles[i]->collect_data();
-		}
-		for (int i = 0; i < roles.size(); i++)
-		{
-				delete roles[i];
-		}
-	}
-	getchar();
-}
+//auto main() -> int
+//{
+//	vector roles;
+//	int selection;
+//
+//	while (true)
+//	{
+//		cout << "CA0(1), CA1(2), CA2(3), Launch(0): ";
+//		cin >> selection;
+//		if (selection == 0)
+//		{
+//			break;
+//		}
+//		roles.push_back(Factory::make_ma(selection));
+//
+//		for (int i = 0; i < roles.size(); i++)
+//		{
+//				roles[i]->collect_data();
+//		}
+//		for (int i = 0; i < roles.size(); i++)
+//		{
+//				delete roles[i];
+//		}
+//	}
+//	getchar();
+//}
