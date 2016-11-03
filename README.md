@@ -2,7 +2,7 @@
 simple modern c++ design patterns
 
 ingenuity: quality of being clever, original and inventive. apply new ideas to solve problems and meet challenges.
-innovation: don't imitate, innovate, challenge conventional thinking, why? why not? think differently
+innovation: don't imitate, innovate, challenge conventional thinking, why? why not? think differently ...
 1. clever
 2. original
 3. inventive
@@ -10,6 +10,8 @@ innovation: don't imitate, innovate, challenge conventional thinking, why? why n
 5. solve problems
 6. meet challenges
 7. focus on the goal
+
+push it baby push it ... for all you do this is for you ... rock the house ... 
 
 for these use cases
 1. adapter -> wrap an existing library, provide specific functionality to meet the needs of the consumers of the api [adapter.cpp]
@@ -36,10 +38,7 @@ their children [composite.cpp]
 15. memento -> need to restore an object back to its previous state (undo, or rollback), capture and externalize an object's internal state so that the object can be returned to this state later, a magic cookie that encapsulates a checkpoint capability [memento.cpp]
 16. facade -> facade takes a riddle wrapped in enigma shrouded in mystery and interjects a wrapper that tames the amorphous and inscrutable mass of software, provide a unified interface to a set of interfaces in a subsystem, define a higher level interface that makes the subsystem easier to use, wrap a complicated subsystem with a simple interface, the facade should not become an all knowing oracle or god object [facade.cpp]
 17. flyweight -> space optimization technique, use less memory by storing data externally associated with objects, share objects to allow their use at fine granularity without prohibitive cost, each flyweight object consists of two parts, state dependent extrinsic part, state independent intrinsic part, intrinsic state is stored shared in the flyweight object, extrinsic state is stored computed by client objects and passed to flyweight object when invoked [flyweight.cpp]
-
-18. ...
-19. ...
-20. ...
+18. prototype -> co-opt one instance of a class for use as a breeder of all future instances, specify the kinds of objects to create using a prototypical instance, new operator is considered harmful [prototype.cpp] 
 
 --------------------------------------------------------------------
 Manifesto for Agile Software Development
