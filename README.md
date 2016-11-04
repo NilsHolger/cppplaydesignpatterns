@@ -40,7 +40,8 @@ their children [composite.cpp]
 17. flyweight -> space optimization technique, use less memory by storing data externally associated with objects, share objects to allow their use at fine granularity without prohibitive cost, each flyweight object consists of two parts, state dependent extrinsic part, state independent intrinsic part, intrinsic state is stored shared in the flyweight object, extrinsic state is stored computed by client objects and passed to flyweight object when invoked [flyweight.cpp]
 18. prototype -> co-opt one instance of a class for use as a breeder of all future instances, specify the kinds of objects to create using a prototypical instance, new operator is considered harmful [prototype.cpp] 
 19. proxy -> provide a surrogate or placeholder for another object to control access to it, use an extra level of indirection, to support distributed, controlled, intelligent access, add a wrapper and delegation to protect the real component from undue complexity [virtualproxy.cpp]
-20 factory method -> define an interface for creating an object but let subclasses decide which class to instantiate, factory method lets a class defer instantiation to subclasses, define a virtual constructor, new operator considered harmful [factorymethod.cpp] [abstractfactory.cpp] 
+20. factory method -> define an interface for creating an object but let subclasses decide which class to instantiate, factory method lets a class defer instantiation to subclasses, define a virtual constructor, new operator considered harmful [factorymethod.cpp]
+21. singleton -> ensure a class has only one instantiation, provide a global point of access to it, encapsulated "just in time initialization" or "initialization on first use" [singleton.cpp]
 
 --------------------------------------------------------------------
 Manifesto for Agile Software Development
