@@ -42,6 +42,7 @@ their children [composite.cpp]
 19. proxy -> provide a surrogate or placeholder for another object to control access to it, use an extra level of indirection, to support distributed, controlled, intelligent access, add a wrapper and delegation to protect the real component from undue complexity [virtualproxy.cpp]
 20. factory method -> define an interface for creating an object but let subclasses decide which class to instantiate, factory method lets a class defer instantiation to subclasses, define a virtual constructor, new operator considered harmful [factorymethod.cpp]
 21. singleton -> ensure a class has only one instantiation, provide a global point of access to it, encapsulated "just in time initialization" or "initialization on first use" [singleton.cpp]
+22. bridge -> decouple an abstraction from its implementation, so that the two can vary independently, publish interface in an inheritance hierarchy, bury implementation in its own hierarchy, beyond encapsulation to insulation 
 
 --------------------------------------------------------------------
 Manifesto for Agile Software Development
