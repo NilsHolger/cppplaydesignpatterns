@@ -94,9 +94,9 @@ void virtual_proxy()
 }
 
 
-auto main() -> int
-{
-	virtual_proxy();
-	//smart_pointers();
-	getchar();
-}
+//auto main() -> int
+//{
+//	virtual_proxy();
+//	//smart_pointers();
+//	getchar();
+//}

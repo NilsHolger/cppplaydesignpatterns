@@ -92,8 +92,14 @@
     <ClCompile Include="prototype.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="proxy.cpp">
+    <ClCompile Include="virtualproxy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="factorymethod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

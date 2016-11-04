@@ -1,15 +1,17 @@
-﻿Build started 03.11.2016 22:35:05.
+﻿Build started 04.11.2016 20:32:21.
      1>Project "C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\cppplaydesignpatterns\cppplaydesignpatterns.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt proxy.cpp
-         proxy.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt factorymethod.cpp
+         factorymethod.cpp
          Unknown compiler version - please run the configure tests and report the results
+     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\factorymethod.cpp(37): warning C4244: 'argument' : conversion from 'const double' to 'const float', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nils\Documents\Visual Studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.lib" /MACHINE:X86 Debug\adapter.obj
          Debug\adapter1.obj
          Debug\builder.obj
          Debug\chainofresponsibility.obj
          Debug\command1.obj
+         Debug\factorymethod.obj
          Debug\cor_broker.obj
          Debug\cor_pointer.obj
          Debug\composite.obj
@@ -25,7 +27,7 @@
          Debug\prototype.obj
          Debug\observer.obj
          Debug\observerboost.obj
-         Debug\proxy.obj
+         Debug\virtualproxy.obj
          Debug\state1.obj
          Debug\state2.obj
          Debug\strategy_dynamic.obj
@@ -35,4 +37,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:08.48
+Time Elapsed 00:00:06.11
