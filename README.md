@@ -42,7 +42,8 @@ their children [composite.cpp]
 19. proxy -> provide a surrogate or placeholder for another object to control access to it, use an extra level of indirection, to support distributed, controlled, intelligent access, add a wrapper and delegation to protect the real component from undue complexity [virtualproxy.cpp]
 20. factory method -> define an interface for creating an object but let subclasses decide which class to instantiate, factory method lets a class defer instantiation to subclasses, define a virtual constructor, new operator considered harmful [factorymethod.cpp]
 21. singleton -> ensure a class has only one instantiation, provide a global point of access to it, encapsulated "just in time initialization" or "initialization on first use" [singleton.cpp]
-22. bridge -> decouple an abstraction from its implementation, so that the two can vary independently, publish interface in an inheritance hierarchy, bury implementation in its own hierarchy, beyond encapsulation to insulation 
+22. bridge -> decouple an abstraction from its implementation, so that the two can vary independently, publish interface in an inheritance hierarchy, bury implementation in its own hierarchy, beyond encapsulation to insulation [bridge.cpp] 
+23. visitor -> represent an operation to be performed, on the elements of an object structure, visitor lets you define a new operation without changing the classes of the elements on which it operates, classic technique for recovering lost type information, do the right thing based on the type of two objects, double dispatch [visitor.cpp]
 
 --------------------------------------------------------------------
 Manifesto for Agile Software Development
@@ -53,24 +54,24 @@ Customer collaboration over contract negotiation.
 Responding to change over following a plan.
 While there is value in items on the right we value items on the left more.
 1. Individuals and interactions
-2. Working software
-3. Customer Collaboration
+2. Working software ++
+3. Customer collaboration
 4. Responding to change
 
 --------------------------------------------------------------------
 Principles behind the Agile Manifesto
 We follow these principles:
-1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. ++
 2. Welcoming changing requirements, even late in development. Agile processes harness change for the customers competitive advantage.
-3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter time scale.
+3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter time scale. ++
 4. Business people and developers must work together daily throughout the project.
-5. Build projects around motivated individuals. Give them the environment and support they need and trust them to get the job done.
+5. Build projects around motivated individuals. Give them the environment and support they need and trust them to get the job done. ++
 6. The most efficient and effective method of conveying information to and within a development team is face to face conversation.
-7. Working software is the primary measure of progress.
+7. Working software is the primary measure of progress. ++
 8. Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
 9. Continuous attention to technical excellence and good design enhances agility.
 10. Simplicity -- the art of maximizing the amount of work done -- is essential.
-11. The best architecture , requirements and designs emerge from self organizing teams.
+11. The best architecture , requirements and designs emerge from self organizing teams. ++
 12. At regular interval, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly. 
 
 --------------------------------------------------------------------
