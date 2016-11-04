@@ -1,13 +1,82 @@
-﻿Build started 04.11.2016 22:23:52.
+﻿Build started 05.11.2016 00:13:07.
      1>Project "C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\cppplaydesignpatterns\cppplaydesignpatterns.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt singleton.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt abstractfactory.cpp adapter.cpp adapter1.cpp bridge.cpp builder.cpp chainofresponsibility.cpp command1.cpp factorymethod.cpp cor_broker.cpp cor_pointer.cpp composite.cpp composite1.cpp decorator.cpp decorator1.cpp facade.cpp flyweight.cpp interpreter.cpp iterator.cpp mediator.cpp memento.cpp prototype.cpp observer.cpp observerboost.cpp singleton.cpp virtualproxy.cpp state1.cpp state2.cpp strategy_dynamic.cpp template.cpp
+         template.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         strategy_dynamic.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         state2.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         state1.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         virtualproxy.cpp
+         Unknown compiler version - please run the configure tests and report the results
          singleton.cpp
          Unknown compiler version - please run the configure tests and report the results
+         observerboost.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         observer.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         prototype.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         memento.cpp
+         Unknown compiler version - please run the configure tests and report the results
+     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\memento.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+         mediator.cpp
+         Unknown compiler version - please run the configure tests and report the results
+     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\mediator.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         iterator.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         interpreter.cpp
+         Unknown compiler version - please run the configure tests and report the results
+     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\interpreter.cpp(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         flyweight.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         facade.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         decorator1.cpp
+         decorator.cpp
+         composite1.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         composite.cpp
+         Unknown compiler version - please run the configure tests and report the results
+     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\composite.cpp(31): warning C4018: '<' : signed/unsigned mismatch
+         cor_pointer.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         Generating Code...
+         Compiling...
+         cor_broker.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         factorymethod.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         command1.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         chainofresponsibility.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         builder.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         bridge.cpp
+     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\bridge.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Unknown compiler version - please run the configure tests and report the results
+     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\bridge.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\nils\documents\visual studio 2013\projects\cppplaydesignpatterns\cppplaydesignpatterns\bridge.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         adapter1.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         adapter.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         abstractfactory.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nils\documents\visual studio 2013\Projects\cppplaydesignpatterns\Debug\cppplaydesignpatterns.lib" /MACHINE:X86 Debug\abstractfactory.obj
          Debug\adapter.obj
          Debug\adapter1.obj
+         Debug\bridge.obj
          Debug\builder.obj
          Debug\chainofresponsibility.obj
          Debug\command1.obj
@@ -38,4 +107,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.64
+Time Elapsed 00:02:59.02

@@ -43,11 +43,11 @@ void b(void)
 }
 
 
-auto main() -> int
-{
-	cout << "m: global_ptr is " << GlobalClass::instance()->get_value() << '\n';
-	a();
-	b();
-	getchar();
-}
+//auto main() -> int
+//{
+//	cout << "m: global_ptr is " << GlobalClass::instance()->get_value() << '\n';
+//	a();
+//	b();
+//	getchar();
+//}
 

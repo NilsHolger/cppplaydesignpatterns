@@ -93,6 +93,7 @@
     <ClCompile Include="abstractfactory.cpp" />
     <ClCompile Include="adapter.cpp" />
     <ClCompile Include="adapter1.cpp" />
+    <ClCompile Include="bridge.cpp" />
     <ClCompile Include="builder.cpp" />
     <ClCompile Include="chainofresponsibility.cpp" />
     <ClCompile Include="command1.cpp" />
