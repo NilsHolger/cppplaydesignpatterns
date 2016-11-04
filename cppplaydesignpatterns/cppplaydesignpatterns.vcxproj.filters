@@ -18,6 +18,9 @@
     <ClInclude Include="headers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="hottechnology.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="adapter.cpp">
@@ -98,8 +101,11 @@
     <ClCompile Include="factorymethod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    <ClCompile Include="abstractfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

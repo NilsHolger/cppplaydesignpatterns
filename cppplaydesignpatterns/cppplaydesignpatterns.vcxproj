@@ -87,8 +87,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="headers.h" />
+    <ClInclude Include="hottechnology.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="abstractfactory.cpp" />
     <ClCompile Include="adapter.cpp" />
     <ClCompile Include="adapter1.cpp" />
     <ClCompile Include="builder.cpp" />
@@ -110,14 +112,12 @@
     <ClCompile Include="prototype.cpp" />
     <ClCompile Include="observer.cpp" />
     <ClCompile Include="observerboost.cpp" />
+    <ClCompile Include="singleton.cpp" />
     <ClCompile Include="virtualproxy.cpp" />
     <ClCompile Include="state1.cpp" />
     <ClCompile Include="state2.cpp" />
     <ClCompile Include="strategy_dynamic.cpp" />
     <ClCompile Include="template.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

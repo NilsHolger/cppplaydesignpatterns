@@ -31,11 +31,11 @@ public:
 };
 
 
-auto main() -> int
-{
-	auto c = PointFactory::NewCartesian(0, 1);
-	auto p = PointFactory::NewPolar(1, PI4);
-	cout << c << '\n';
-	cout << p << '\n';
-	getchar();
-}
+//auto main() -> int
+//{
+//	auto c = PointFactory::NewCartesian(0, 1);
+//	auto p = PointFactory::NewPolar(1, PI4);
+//	cout << c << '\n';
+//	cout << p << '\n';
+//	getchar();
+//}
