@@ -67,14 +67,14 @@ public:
 	}
 };
 
-auto main() -> int 
-{
-	Time *times[3];
-	times[0] = new Time(11, 11);
-	times[1] = new CivilianTime(11, 11, 1);
-	times[2] = new ZuluTime(11, 11, 1);
-	for (int i = 2; i >= 0; --i){
-		times[i]->tellmeallyoursecrets();
-	}
-	getchar();
-}
+//auto main() -> int 
+//{
+//	Time *times[3];
+//	times[0] = new Time(11, 11);
+//	times[1] = new CivilianTime(11, 11, 1);
+//	times[2] = new ZuluTime(11, 11, 1);
+//	for (int i = 2; i >= 0; --i){
+//		times[i]->tellmeallyoursecrets();
+//	}
+//	getchar();
+//}

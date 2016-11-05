@@ -119,6 +119,7 @@
     <ClCompile Include="state2.cpp" />
     <ClCompile Include="strategy_dynamic.cpp" />
     <ClCompile Include="template.cpp" />
+    <ClCompile Include="visitor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
